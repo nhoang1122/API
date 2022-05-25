@@ -16,7 +16,8 @@ const clicked = () => {
                     })
                     .catch(err => console.log(err));
             }
-        })     
+        })
+        .catch(err => console.log(err));    
 }
 
 btn.addEventListener('click', clicked);
