@@ -1,0 +1,42 @@
+PART 1.
+
+1.  https://swapi.dev/api/people/?search=Darth+Vader
+
+2.  https://swapi.dev/api/planets/?search=alderaan
+
+3.  https://swapi.dev/api/starships/?search=Millennium+Falcon
+
+4.  https://swapi.dev/api/people/?search=C-3PO
+    https://swapi.dev/api/people/2/
+    https://swapi.dev/api/people/3/
+    https://swapi.dev/api/people/8/
+    https://swapi.dev/api/people/23/
+      
+5.  https://swapi.dev/api/films/1/
+    https://swapi.dev/api/films/2/
+    https://swapi.dev/api/films/3/
+    https://swapi.dev/api/films/4/
+    https://swapi.dev/api/films/5/
+    https://swapi.dev/api/films/6/
+
+6.  https://swapi.dev/api/starships/?search=Millennium+Falcon
+
+PART 2.
+
+1.  POST requires a text object body and creates a new post in the response data. 
+2.  GET returns an array of the response data.
+3.  app.delete(‘https://practiceapi.devmountain.com/api/posts?id=555')
+4.  200 & 409
+5.  app.post(‘https://practiceapi.devmountain.com/api/posts')
+    {
+        "id": 1033,
+        "text": "Nhat Hoang",
+        "date": "25 May 2022"
+    }
+
+6.
+7.
+8.
+9.
+10.
+
